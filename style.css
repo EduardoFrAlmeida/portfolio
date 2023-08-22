@@ -47,9 +47,10 @@ header{
 }
 
 header .logo{
-    background-image: url("./img/logo.png");
-    font-size: 1.7rem;
-    font-weight: 700;
+    /* background-image: url("./img/logo.png"); */
+    /* font-size: 1.7rem;
+    font-weight: 700; */
+    width: 10%;
 }
 
 span{
@@ -302,16 +303,22 @@ section{
 }
 
 .img-hero img{
-    position: relative;
+    /* position: relative;
     width: 400px;
     height: auto;
+    z-index: 10; */
+    position: relative;
+    width: 450px;
+    height: auto;
     z-index: 10;
+    top: 63px;
+    /* left: -40px; */
 }
 
 .rotate-text{
     position: absolute;
     top: 4%;
-    left: -53px;
+    left: -16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -821,12 +828,12 @@ section{
 
 .contactSkills{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 2rem;
 }
 
 .contact-info,.skills{
-    width: 100%;
+    /* width: 100%; */
     background: var(--gradient-white-bg2);
     box-shadow: rgba(0,0,0,0.18)0px 2px 4px;
     padding: 1rem;
