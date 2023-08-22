@@ -131,6 +131,25 @@ ul.navlist{
     opacity: 0;
 }
 
+@keyframes hand-animation {
+    0% {
+        rotate: -24deg
+    }
+
+    50% {
+        rotate: 24deg
+    }
+
+    100% {
+        rotate: -24deg
+    }
+}
+
+.hand-amarela {
+    rotate: -24deg;
+    animation: hand-animation 2s 5s infinite forwards;
+}
+
 
 /* ==================== home section css code ============================ */
 section{
@@ -545,7 +564,7 @@ section{
 .proposal{
     position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
     background: var(--gradient-white-bg2);
@@ -558,9 +577,9 @@ section{
 }
 
 .proposal img{
-    width: 40vw;
+    width: 25vw;
     height: auto;
-    margin: -4rem 0 0;
+    margin: -2rem 0 0;
     z-index: 2;
 }
 
