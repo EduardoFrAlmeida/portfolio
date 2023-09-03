@@ -47,7 +47,7 @@ var mixer = mixitup('.portfolio-gallery',{
         target: '.portfolio-box'
     },
     animation: {
-        duration: 500
+        duration: 700
     }
 });
 
@@ -72,7 +72,7 @@ var swiper = new Swiper(".mySwiper", {
             spaceBetween:10,
         },
         1200:{
-            slidesPerView:2,
+            slidesPerView:3,
             spaceBetween:20,
         },
     }
