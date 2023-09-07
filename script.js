@@ -47,7 +47,7 @@ var mixer = mixitup('.portfolio-gallery',{
         target: '.portfolio-box'
     },
     animation: {
-        duration: 700
+        duration: 900
     }
 });
 
