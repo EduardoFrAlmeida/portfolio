@@ -185,17 +185,18 @@
                 <div class="text-box">
                     <p>Online Courses and Bootcamps</p>
                     <span>
-                       <a class="link-courses" href="http://">Algorithm and Programming Logic - Udemy</a> <br>
-                       <a class="link-courses" href="http://">HTML5 and CSS3 - Alura</a> <br>
-                        <a class="link-courses" href="http://">JavaScript - Alura</a> <br>
-                        <a class="link-courses" href="http://">Typescript - Alura</a> <br>
-                        <a class="link-courses" href="http://">Sass - Alura</a> <br>
-                        <a class="link-courses" href="http://">Bootstrap - Alura</a> <br>
-                        <a class="link-courses" href="http://">Tailwind CSS - Alura</a> <br>
-                        <a class="link-courses" href="http://">React with Typescript - Alura</a> <br>
-                        <a class="link-courses" href="http://">Web Accessibility - Alura</a> <br>
-                        <a class="link-courses" href="http://">Git and GitHub - Digital Innovation One</a> <br>
-                        <a class="link-courses" href="http://">Agile Projects with SCRUM - Digital Innovation One</a>
+                        <a class="link-courses" href="https://www.udemy.com/certificate/UC-c987f84c-b989-4243-b790-1d9bc491595c/">Algorithm and Programming Logic - Udemy</a> <br>
+                        <a class="link-courses" href="https://www.udemy.com/certificate/UC-2edb827b-895c-41c0-8c98-a5b03ecdf0ba/">HTML5 and CSS3 - Alura</a> <br>
+                        <a class="link-courses" href="https://www.udemy.com/certificate/UC-2edb827b-895c-41c0-8c98-a5b03ecdf0ba/">JavaScript - Alura</a> <br>
+                        <a class="link-courses" href="https://cursos.alura.com.br/certificate/ce1c03ee-4c4b-4232-aa0f-ac4057e621dd">Typescript - Alura</a> <br>
+                        <a class="link-courses" href="https://cursos.alura.com.br/certificate/7cf8d206-a9fc-4f26-a39d-92ddfea1f190">Sass - Alura</a> <br>
+                        <a class="link-courses" href="https://cursos.alura.com.br/certificate/d253e277-404d-4ee7-9928-9dbe65594003">Bootstrap - Alura</a> <br>
+                        <a class="link-courses" href="https://cursos.alura.com.br/certificate/94f88fab-b135-4aa7-9b31-c27ad57d6231">Tailwind CSS - Alura</a> <br>
+                        <a class="link-courses" href="https://cursos.alura.com.br/certificate/c017372c-a476-4759-b020-57d8ece4e91d">React with Typescript - Alura</a> <br>
+                        <a class="link-courses" href="https://cursos.alura.com.br/certificate/b089a332-244b-4f8b-852b-98b77d470b56">Next.js - Alura</a> <br>
+                        <a class="link-courses" href="https://www.udemy.com/certificate/UC-a6c93100-9c3d-475c-969f-510c054a28b3/">React Native - Udemy</a> <br>                
+                        <a class="link-courses" href="https://www.udemy.com/certificate/UC-6992201b-188a-4e02-8a20-8524ea6d34fb/">SQL - Udemy</a> <br>
+                        <a class="link-courses" href="https://www.dio.me/certificate/EB00ECA7/share">Git and GitHub - Digital Innovation One</a> <br>
                  </span>
                 </div>
                 
@@ -390,17 +391,30 @@
     
         </section>
 
+        <section class="services">
+            
+    
+            <div class="proposal">
+                <div class="text-box">
+                    <span>Get It Touch</span>
+                    <h3>Have a Project On Your Mind</h3>
+                    <a href="#contact" class="btn">Contact Me</a>
+                </div>
+                <img src="img/logo-company.png" class="first">
+            </div>
+    
+            <div class="showcase">
+                <img src="shapes/ring.png" class="ring">
+                <img src="shapes/circle.png" class="circle">
+                <img src="shapes/circle.png" class="circle2">
+                <img src="shapes/circle.png" class="circle3">
+                <img src="shapes/half-ring.png" class="half-ring">
+            </div>
+        </section>
+
     </section>
  
     <!-- Contact Me -->
-
-
-    <?php
-if (isset($_GET["enviado"]) && $_GET["enviado"] == 1) {
-    echo "<p class='success-message'>Mensagem enviada com sucesso! Tenha um excelente dia! 🎉</p>";
-}
-?>
-
     <section class="down-box" id="contact">
         <div class="contactSkills">
             <div class="contact-info">
@@ -408,18 +422,20 @@ if (isset($_GET["enviado"]) && $_GET["enviado"] == 1) {
                     <h2 class="heading">Contact Me</h2>
                     <span>get in touch with me</span>
                 </div>
-                <form action="process.php" method="POST">
+                <form action="https://formsubmit.co/eduardofralmeida1999@gmail.com" method="POST">
                     <div class="input-box">
-                        <input type="text" placeholder="First Name">
-                        <input type="text" placeholder="Last Name">
+                        <input type="text" placeholder="Full Name">
                     </div>
                     <input type="email" placeholder="Email">
                     <input type="text" placeholder="Subject">
-                    <textarea name="#" id="" cols="30" rows="10">
+                    <textarea name="message" cols="30" rows="10">
                     </textarea>
                     <div class="formBtn">
                         <button type="submit" class="btn">Send Message</button>
                     </div>
+                    <input type="hidden" name="_subject" value="New Contact">
+                    <input type="text" name="_honey" style="display: none;">
+                    <input type="hidden" name="_captcha" value="false">
                 </form>
             </div>
             

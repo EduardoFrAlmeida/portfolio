@@ -864,7 +864,7 @@ section{
 
 .contact-info form input,
 .contact-info form textarea{
-    /* width: 100%; */
+    width: 100%;
     padding: .8rem;
     border: 2px solid #e8e1e1;
     margin: .5rem 0;
